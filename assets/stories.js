@@ -1,5 +1,5 @@
 export default [
-  "Hi!",
+  "Halooo Mawarr!",
   "Klik next ya!",
   "Udah itu aja",
   "Aku sayang kamu!"

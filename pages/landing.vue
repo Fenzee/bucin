@@ -38,7 +38,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'I always wanted to tell you... ^2500', 'Nevermind! >///<']"
+        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'Aku selalu Ingin Bilang kekamu... ^2500', 'Lupakan :v! >///<']"
         :backDelay="500"
         :typeSpeed="100"
         :backSpeed="20"
@@ -88,7 +88,7 @@ if (process.browser) {
       let el = document.createElement("div");
 
       // Fill with ♥
-      el.innerHTML = `<h1>${random(["♥", "♥♥", "♥♥♥"])}</h1>`;
+      el.innerHTML = `<h1>${random(["♥♥♥", "♥♥♥♥", "♥♥♥♥♥"])}</h1>`;
 
       // Add "popup" class
       el.classList.add("popup");
